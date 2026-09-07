@@ -48,6 +48,10 @@ do pliku `tool-results/…txt` i podaje ścieżkę; SKILL.md każe go skopiować
 w projekcie `install.sh` wypisze komendę `sed`, która podmienia ścieżkę na `.claude/skills/_senuto-wspolne/`.
 Katalogi wyjściowe (`data/…`, `audyt/…`) skrypty i skille tworzą same w bieżącym katalogu roboczym.
 
+## Dwie wersje pakietu
+- **`./`** (ten poziom) — wersja techniczna: skrypty Python, crawl4ai, NodesHub przez API. Dla Claude Code.
+- **`cowork/`** — wersja dla osób mniej technicznych: te same 6 skilli **bez Pythona i instalacji**; działa w Claude Cowork i w Claude Code. Zobacz `cowork/README.md`.
+
 ## Claude Code vs Claude Cowork
 | Skill | Claude Code | Claude Cowork | Dlaczego |
 |---|---|---|---|
